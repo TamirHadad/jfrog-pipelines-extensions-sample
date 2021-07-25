@@ -1,4 +1,4 @@
-Gitrepo() {
+checkHealth() {
   local success=true
   local url=$(find_step_configuration_value "healthCheckUrl")
   {
@@ -14,4 +14,4 @@ Gitrepo() {
   $success
 }
 
-execute_command Gitrepo
+execute_command checkHealth

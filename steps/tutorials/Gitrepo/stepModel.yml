@@ -1,5 +1,5 @@
 configuration:
-  Gitrepo:
+  healthCheckUrl:
     type: Url
   notifyOnSuccess:
     type: Boolean
