@@ -22,7 +22,7 @@ pipelines:
       - name: Health_Check_Step
         type: tutorials/Gitrepo
         configuration:
-          healthCheckUrl: "https://jfrog.com"
+          healthCheckUrl: "https://jfrog1.com"
           notifyOnSuccess: false
           notifyOnFailure: false
           stuff: 
