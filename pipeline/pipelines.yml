@@ -6,7 +6,7 @@ resources:
       gitProvider: Github                                    # <-- Change to your GitHub integration
       
   - name: MyTest
-    type: tutorials/test
+    type: jfrog/test
     configuration:
       alpha: "JFrog"
       number: 42
@@ -20,7 +20,7 @@ pipelines:
           my_env_var: "hello" 
     steps:
       - name: Health_Check_Step
-        type: tutorials/Gitrepo
+        type: tutorials/HealthCheck
         configuration:
           healthCheckUrl: "https://jfrog1.com"
           notifyOnSuccess: false
