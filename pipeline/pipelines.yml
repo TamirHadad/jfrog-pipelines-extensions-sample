@@ -13,14 +13,14 @@ resources:
       flag: true
 
 pipelines: 
-  - name: Gitrepo_tes
+  - name: MyHealthCheck
     configuration:
       environmentVariables:
         readOnly:
           my_env_var: "hello" 
     steps:
       - name: Health_Check_Step
-        type: tutorials/Gitrepo
+        type: tutorials/HealthCheck
         configuration:
           healthCheckUrl: "https://jfrog.com"
           notifyOnSuccess: false
