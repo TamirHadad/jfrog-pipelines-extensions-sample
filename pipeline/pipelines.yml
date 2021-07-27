@@ -31,7 +31,7 @@ pipelines:
           inputResources:
            - name: MyTest
            - name: MyGitHub
-             -
+
       - name: Step2
         type: Bash
         configuration:
