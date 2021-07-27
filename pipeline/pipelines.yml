@@ -37,8 +37,6 @@ pipelines:
         configuration:
           inputSteps:
             - name: Health_Check_Step
-          outputResources:
-            - name: myPropertyBag
         execution:
           onExecute:
             - echo $current_runid
@@ -54,8 +52,6 @@ pipelines:
         configuration:
           inputSteps:
             - name: Step2
-          outputResources:
-            - name: myPropertyBag
         execution:
           onExecute:
             - echo $current_runid
