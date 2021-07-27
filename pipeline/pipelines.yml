@@ -22,7 +22,7 @@ pipelines:
       - name: Health_Check_Step
         type: tutorials/HealthCheck
         configuration:
-          healthCheckUrl: "https://jfrog1.com"
+          healthCheckUrl: "https://jfrog.com"
           notifyOnSuccess: false
           notifyOnFailure: false
           stuff: 
