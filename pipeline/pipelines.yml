@@ -6,7 +6,7 @@ resources:
       gitProvider: Github                                    # <-- Change to your GitHub integration
       
   - name: MyTest
-    type: jfrog/test
+    type: Shippable/test
     configuration:
       alpha: "JFrog"
       number: 42
