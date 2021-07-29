@@ -23,7 +23,7 @@ pipelines:
     configuration:
       environmentVariables:
         readOnly:
-          my_env_var: "hello1"
+          my_env_var: "hello2"
     steps:
       - name: Health_Check_Step
         type: tutorials/HealthCheck
