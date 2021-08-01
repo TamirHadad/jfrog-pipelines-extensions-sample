@@ -27,9 +27,6 @@ pipelines:
     steps:
       - name: Step2
         type: Bash
-        configuration:
-          inputSteps:
-            - name: Health_Check_Step
         execution:
           onExecute:
             - echo "step2"
