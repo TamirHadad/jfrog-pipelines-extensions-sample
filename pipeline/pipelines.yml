@@ -22,7 +22,8 @@ pipelines:
       - name: Step2
         type: Bash
         configuration:
-          inputResources: [MyGitHub]
+          inputResources:
+            - name: MyGitHub
         execution:
           onExecute:
             - echo "step2"
