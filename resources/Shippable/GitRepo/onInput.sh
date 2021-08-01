@@ -3,4 +3,4 @@ test_input() {
   printenv
 }
 
-execute_command "test_input %%context.resourceeName%%"
+execute_command "test_input %%context.resourceeNamffe%%"
