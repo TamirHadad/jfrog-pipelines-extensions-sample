@@ -1,15 +1,4 @@
 resources:
-  - name: myFirstRepo
-        type: GitRepo
-        configuration:
-          # SCM integration where the repository is located
-          gitProvider: Github
-          # Repository path, including org name/repo name
-          path: "TamirHadad/jfrog-pipelines-extensions-sample"
-          branches:
-            # Specifies which branches will trigger dependent steps g
-            include: master
-
   - name: MyGitHub
     type: GitRepo
     configuration:
