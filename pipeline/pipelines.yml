@@ -7,7 +7,7 @@ resources:
           # Repository path, including org name/repo name
           path: "TamirHadad/jfrog-pipelines-extensions-sample"
           branches:
-            # Specifies which branches will trigger dependent steps
+            # Specifies which branches will trigger dependent steps g
             include: master
 
   - name: MyGitHub
