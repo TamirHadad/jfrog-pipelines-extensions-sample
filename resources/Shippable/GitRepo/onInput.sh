@@ -1,5 +1,5 @@
 test_input() {
-  echo "resource namef: $1"
+  echo "resource namef2: $1"
   printenv
 }
 
