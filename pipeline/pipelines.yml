@@ -25,19 +25,6 @@ pipelines:
         readOnly:
           my_env_var: "hello234"
     steps:
-      - name: Health_Check_Step
-        type: tutorials/HealthCheck
-        configuration:
-          healthCheckUrl: "https://jfrog.com"
-          notifyOnSuccess: false
-          notifyOnFailure: false
-          stuff: 
-           - "This is a string21"
-           - "This is another string"
-          inputResources:
-           - name: MyTest
-           - name: MyGitHub
-
       - name: Step2
         type: Bash
         configuration:
